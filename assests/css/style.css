@@ -1,0 +1,34 @@
+
+body{
+     background-image: url(../images/canva-pink-aesthetic-zoom-virtual-background-t5QXEzHaSdM.jpg);
+     background-repeat: no-repeat;
+     background-attachment:fixed;
+     background-size: cover;   
+}
+
+.form{ 
+      padding: 10px 20px;
+      border-radius: 20px;
+      background-color:rgb(240, 209, 214);
+      box-shadow: 5px 5px 5px 5px rgb(235, 185, 192);
+}
+
+.postcard h3{
+     height: 40px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+  
+}
+
+.loader{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100vh;
+     background-color: rgba(0,0,0,.2);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
